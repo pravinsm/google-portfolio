@@ -3,7 +3,7 @@
 import type React from "react";
 
 import { useState } from "react";
-import { Search, Sun, Moon } from "lucide-react";
+import { Search, Sun, Moon, ChevronLeft } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { portfolioData } from "@/lib/portfolio-data";
@@ -123,7 +123,7 @@ export default function GooglePortfolio() {
         isDarkMode ? "bg-gray-900" : "bg-white"
       }`}
     >
-      <div className="fixed top-4 right-4 z-50">
+      <div className="fixed top-4.5 sm:top-5.5 right-4 z-50">
         <Button
           onClick={toggleTheme}
           variant="ghost"
@@ -338,11 +338,12 @@ export default function GooglePortfolio() {
           >
             <div className="max-w-6xl mx-auto flex items-center">
               <h1
-                className={`text-2xl font-semibold mr-8 cursor-pointer hover:opacity-80 transition-opacity duration-200 ${
+                className={`flex place-items-center text-2xl font-semibold mr-3.5 sm:mr-8 cursor-pointer hover:opacity-80 transition-opacity duration-200 ${
                   isDarkMode ? "text-gray-200" : "text-gray-700"
                 }`}
                 onClick={handleLogoClick}
               >
+                <ChevronLeft className="inline-flex sm:hidden -mt-0.5" />
                 <span
                   className={isDarkMode ? "text-blue-400" : "text-blue-600"}
                 >
@@ -371,17 +372,17 @@ export default function GooglePortfolio() {
                 </span>
               </h1>
 
-              <form onSubmit={handleSubmit} className="flex-1 max-w-xl">
+              <form onSubmit={handleSubmit} className="flex-1 max-w-xl mr-10 sm:mr-4">
                 <div className="relative">
                   <div
-                    className={`flex items-center border rounded-full px-4 py-2 hover:shadow-md focus-within:shadow-md transition-all duration-200 ${
+                    className={`flex items-center border rounded-full px-2 sm:px-4 py-1 sm:py-2 hover:shadow-md focus-within:shadow-md transition-all duration-200 ${
                       isDarkMode
                         ? "border-gray-600 bg-gray-800"
                         : "border-gray-300 bg-white"
                     }`}
                   >
                     <Search
-                      className={`w-4 h-4 mr-3 ${
+                      className={`w-4 h-4 mr-0 sm:mr-3 ${
                         isDarkMode ? "text-gray-400" : "text-gray-400"
                       }`}
                     />
@@ -389,7 +390,7 @@ export default function GooglePortfolio() {
                       type="text"
                       value={searchQuery}
                       onChange={(e) => setSearchQuery(e.target.value)}
-                      className={`flex-1 border-none outline-none bg-transparent text-sm focus:outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 shadow-none ${
+                      className={`flex-1 border-none outline-none bg-transparent text-sm focus:outline-none focus:ring-0 focus-visible:ring-0 focus-visible:ring-offset-0 shadow-none pl-2 sm:pl-3 pr-2 sm:pr-3 ${
                         isDarkMode ? "text-white" : "text-black"
                       }`}
                     />
@@ -400,7 +401,7 @@ export default function GooglePortfolio() {
               <Button
                 onClick={handleLogoClick}
                 variant="ghost"
-                className={`ml-4 text-sm transition-all duration-200 ${
+                className={`mr-6 text-sm hidden sm:inline-flex transition-all duration-200 ${
                   isDarkMode
                     ? "text-gray-400 hover:text-gray-200 hover:bg-gray-800"
                     : "text-gray-600 hover:text-gray-800 hover:bg-gray-100"

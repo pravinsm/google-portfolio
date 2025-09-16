@@ -81,7 +81,7 @@ export function SearchResults({ results, query, isDarkMode }: SearchResultsProps
               className={`max-w-2xl animate-slide-up p-4 rounded-lg transition-all duration-200 -ml-4 ${isDarkMode ? "hover:bg-gray-800" : "hover:bg-gray-50"}`}
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="flex items-center space-x-2 mb-1">
+              <div className="flex items-center space-x-2 mb-1 flex-wrap">
                 <span className={getCategoryColor(result.category)}>{getCategoryIcon(result.category)}</span>
                 <span className={`text-sm capitalize font-medium ${isDarkMode ? "text-gray-400" : "text-gray-600"}`}>
                   {result.category}
@@ -120,10 +120,10 @@ export function SearchResults({ results, query, isDarkMode }: SearchResultsProps
                         href={result.url}
                         target="_blank"
                         rel="noopener noreferrer"
-                        className="flex items-center space-x-1"
+                        className="block"
                       >
                         <span>{highlightText(result.title, query)}</span>
-                        <ExternalLink className="w-4 h-4" />
+                        <ExternalLink className="w-4 h-4 ml-1 -mt-1 inline" />
                       </a>
                     ) : (
                       highlightText(result.title, query)
@@ -132,7 +132,7 @@ export function SearchResults({ results, query, isDarkMode }: SearchResultsProps
 
                   {result.url && (
                     <div
-                      className={`text-sm mb-2 hover:underline cursor-pointer ${isDarkMode ? "text-green-400" : "text-green-700"}`}
+                      className={`text-sm mb-2 hover:underline cursor-pointer wrap-anywhere ${isDarkMode ? "text-green-400" : "text-green-700"}`}
                     >
                       {result.url}
                     </div>
