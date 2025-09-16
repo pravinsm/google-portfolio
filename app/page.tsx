@@ -150,44 +150,32 @@ export default function GooglePortfolio() {
               onClick={handleLogoClick}
             >
               <span
-                className={`text-blue-600 hover:scale-110 transition-transform duration-200 inline-block ${
-                  isDarkMode ? "text-blue-400" : ""
-                }`}
+                className={`text-[#4285f4] hover:scale-110 transition-transform duration-200 inline-block`}
               >
                 P
               </span>
               <span
-                className={`text-red-600 hover:scale-110 transition-transform duration-200 inline-block ${
-                  isDarkMode ? "text-red-400" : ""
-                }`}
+                className={`text-[#ea4335] hover:scale-110 transition-transform duration-200 inline-block`}
               >
                 r
               </span>
               <span
-                className={`text-amber-600 hover:scale-110 transition-transform duration-200 inline-block ${
-                  isDarkMode ? "text-amber-400" : ""
-                }`}
+                className={`text-[#fbbc05] hover:scale-110 transition-transform duration-200 inline-block`}
               >
                 a
               </span>
               <span
-                className={`text-blue-600 hover:scale-110 transition-transform duration-200 inline-block ${
-                  isDarkMode ? "text-blue-400" : ""
-                }`}
+                className={`text-[#4285f4] hover:scale-110 transition-transform duration-200 inline-block`}
               >
                 v
               </span>
               <span
-                className={`text-green-600 hover:scale-110 transition-transform duration-200 inline-block ${
-                  isDarkMode ? "text-green-400" : ""
-                }`}
+                className={`text-[#34a853] hover:scale-110 transition-transform duration-200 inline-block`}
               >
                 i
               </span>
               <span
-                className={`text-red-600 hover:scale-110 transition-transform duration-200 inline-block ${
-                  isDarkMode ? "text-red-400" : ""
-                }`}
+                className={`text-[#ea4335] hover:scale-110 transition-transform duration-200 inline-block`}
               >
                 n
               </span>
@@ -345,29 +333,29 @@ export default function GooglePortfolio() {
               >
                 <ChevronLeft className="inline-flex sm:hidden -mt-0.5" />
                 <span
-                  className={isDarkMode ? "text-blue-400" : "text-blue-600"}
+                  className="text-[#4285f4]"
                 >
                   P
                 </span>
-                <span className={isDarkMode ? "text-red-400" : "text-red-600"}>
+                <span className="text-[#ea4335]">
                   r
                 </span>
                 <span
-                  className={isDarkMode ? "text-amber-400" : "text-amber-600"}
+                  className="text-[#fbbc05]"
                 >
                   a
                 </span>
                 <span
-                  className={isDarkMode ? "text-blue-400" : "text-blue-600"}
+                  className="text-[#4285f4]"
                 >
                   v
                 </span>
                 <span
-                  className={isDarkMode ? "text-green-400" : "text-green-600"}
+                  className="text-[#34a853]"
                 >
                   i
                 </span>
-                <span className={isDarkMode ? "text-red-400" : "text-red-600"}>
+                <span className="text-[#ea4335]">
                   n
                 </span>
               </h1>
