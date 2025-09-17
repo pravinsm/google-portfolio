@@ -98,7 +98,7 @@ export default function GooglePortfolio() {
   };
 
   const keywordInfo = [
-    "4+ Years Experience",
+    "5+ Years Experience",
     "Full Stack Developer",
     "AI Enthusiast",
     "React Expert",

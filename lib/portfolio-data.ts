@@ -19,7 +19,7 @@ export const portfolioData: PortfolioItem[] = [
     id: "about",
     title: "About Pravin Sampathraj Manack Chand",
     content:
-      "Accomplished senior software engineer equipped with 4+ years of success architecting and scaling secure, real-time applications across front-end, back-end, and cloud environments. Experience partnering with product managers and UI/UX designers to translate product requirements into production-ready code, leveraging expertise in distributed systems, API design, CI/CD pipelines, and performance optimization to deliver low-latency, fault-tolerant platforms serving hundreds of thousands of users.",
+      "Accomplished senior software engineer equipped with 5+ years of success architecting and scaling secure, real-time applications across front-end, back-end, and cloud environments. Experience partnering with product managers and UI/UX designers to translate product requirements into production-ready code, leveraging expertise in distributed systems, API design, CI/CD pipelines, and performance optimization to deliver low-latency, fault-tolerant platforms serving hundreds of thousands of users.",
     category: "about",
     tags: [
       "Senior Software Engineer",
@@ -33,7 +33,7 @@ export const portfolioData: PortfolioItem[] = [
     description:
       "Senior Software Engineer building real-time, AI-powered solutions with expertise in end-to-end software lifecycle, front-end and back-end development, and emerging technologies.",
     achievements: [
-      "4+ years of software engineering experience",
+      "5+ years of software engineering experience",
       "Expertise in distributed systems and API design",
       "Experience with platforms serving hundreds of thousands of users",
       "Specialization in real-time, fault-tolerant applications",
@@ -194,6 +194,20 @@ export const portfolioData: PortfolioItem[] = [
       "Efficient calculation logic",
     ],
   },
+  {
+    id: "pec-attendance-app",
+    title: "Pec Attendance App - College Attendance Management",
+    content:
+      "Developed an attendance app for Prathyusha Engineering College using Android Studio and Firebase Realtime Database, simplifying the attendance tracking process for students and faculty.",
+    category: "projects",
+    tags: ["Firebase", "Android Development", "Programming", "Critical Thinking"],
+    technologies: ["Android Studio", "Firebase Realtime Database", "Java/Kotlin"],
+    achievements: [
+      "Streamlined attendance process for college students and faculty",
+      "Implemented real-time database synchronization",
+      "Built user-friendly Android application for easy access",
+    ],
+  },
 
   // Experience
   {
@@ -203,7 +217,7 @@ export const portfolioData: PortfolioItem[] = [
       "Engineered and enhanced products and dashboards using React, HTML, JavaScript, CSS, SCSS, Material-UI, Handlebars, and Webpack. Built and optimized a video calling system using Agora web SDK, resulting in a 90% improvement in video calling experience.",
     category: "experience",
     tags: ["React", "JavaScript", "CSS", "SCSS", "Material-UI", "Agora SDK", "Video Calling", "Senior Engineer"],
-    date: "Apr 2022 - Aug 2024",
+    date: "Apr 2022 - Aug 2025",
     company: "SaleAssist.ai",
     location: "Remote",
     technologies: ["React", "JavaScript", "HTML", "CSS", "SCSS", "Material-UI", "Handlebars", "Webpack", "Agora SDK"],
@@ -250,6 +264,45 @@ export const portfolioData: PortfolioItem[] = [
       "Scalable front-end applications",
       "Robust content management integration",
     ],
+  },
+  {
+    id: "letsupgrade",
+    title: "Participant in Open Source Contribution",
+    content:
+      "Worked as backend and frontend developer in the open source project named Charity App under the 'Build with LetsUpgrade' initiative organized by LetsUpgrade EdTech Private Limited. Contributed as part of a team and gained practical experience in web development.",
+    category: "experience",
+    tags: ["Web Development", "Programming", "CSS", "Leadership", "HTML", "Full-Stack", "JavaScript", "Critical Thinking"],
+    date: "Jul 2020 - Oct 2020",
+    company: "LetsUpgrade",
+    location: "Remote",
+    technologies: ["JavaScript", "HTML", "CSS", "Full-Stack Development"],
+    achievements: ["Contributed to an open source project as part of a team", "Gained hands-on experience in frontend and backend development"],
+  },
+  {
+    id: "oneyes",
+    title: "Web Developer at OneYes Elearning",
+    content:
+      "Worked as a web developer on a hackathon project for One Yes Technology. Developed a website for the event, which was successfully conducted, gaining practical experience in web development and team collaboration.",
+    category: "experience",
+    tags: ["Web Development", "Programming", "CSS", "Leadership", "HTML", "Full-Stack", "JavaScript", "Critical Thinking"],
+    date: "Jun 2020 - Aug 2020",
+    company: "OneYes Elearning",
+    location: "Remote",
+    technologies: ["JavaScript", "HTML", "CSS", "Full-Stack Development"],
+    achievements: ["Developed website for hackathon event", "Successfully conducted event", "Gained hands-on experience in web development"],
+  },
+  {
+    id: "coda",
+    title: "Participant in Full Stack Application Development",
+    content:
+      "Participated in a three-day Coda Launchpad workshop on full stack application development conducted by Coda Global. Learned Angular for front-end and Java with Spring for back-end development, using MySQL for database management.",
+    category: "experience",
+    tags: ["Web Development", "Java", "Programming", "CSS", "Angular", "HTML", "Full-Stack Development", "Critical Thinking"],
+    date: "Feb 2020",
+    company: "Coda, a Presidio Cloud Company",
+    location: "Chennai, Tamil Nadu, India",
+    technologies: ["Angular", "Java", "Spring", "MySQL", "CSS", "HTML"],
+    achievements: ["Completed full stack application workshop", "Learned Angular for front-end development", "Used Java and Spring for back-end", "Implemented MySQL database for applications"],
   },
 
   // Skills
