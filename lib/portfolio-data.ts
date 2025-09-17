@@ -407,6 +407,7 @@ export const portfolioData: PortfolioItem[] = [
       "Published research on IoT system for real-time water pollution detection, using sensors to monitor water quality and send mobile alerts for aquatic life protection.",
     category: "publications",
     tags: ["IoT", "Water Pollution", "Sensors", "Mobile Alerts", "Research", "Environmental"],
+    date: "Apr 2020",
     url: "http://testmagzine.biz/index.php/testmagzine/article/view/6178",
     achievements: [
       "Real-time monitoring system",
